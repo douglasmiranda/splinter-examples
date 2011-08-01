@@ -17,8 +17,8 @@ browser.visit('https://www.google.com/accounts/ServiceLogin')
 i = 0
 # while not appear the captcha input, try login with wrong account
 while True:
-	browser.fill('Email', 'buzzcreativeweb')
-	browser.fill('Passwd', 'p455w942')
+	browser.fill('Email', 'my_wrong_username')
+	browser.fill('Passwd', 'my_wrong_password')
 	browser.find_by_css('#signIn').first.click()
 	i += 1
 	if browser.is_element_present_by_id('logincaptcha'):
