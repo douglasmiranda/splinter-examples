@@ -14,7 +14,7 @@ I mean, for me is happening this...
 """
 from splinter.browser import Browser
 
-browser = Browser('webdriver.chrome')
+browser = Browser('chrome')
 browser.visit('http://google.com')
 # Note: 'q' is the value of the atribute 'name', not the 'id'
 # <input type='text' name='q'...

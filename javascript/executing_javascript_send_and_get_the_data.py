@@ -11,7 +11,7 @@ javascript_advanced_and_organized_code.py
 """
 from splinter.browser import Browser
 
-browser = Browser('webdriver.chrome')
+browser = Browser('chrome')
 # Visit URL
 url = "http://splinter.cobrateam.info/"
 browser.visit(url)

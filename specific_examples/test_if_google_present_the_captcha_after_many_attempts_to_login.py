@@ -11,7 +11,7 @@ for the safe of the system.
 """
 from splinter.browser import Browser
 
-browser = Browser('webdriver.chrome')
+browser = Browser('chrome')
 browser.visit('https://www.google.com/accounts/ServiceLogin')
 # just a counter
 i = 0
